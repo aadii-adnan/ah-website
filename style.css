@@ -948,14 +948,15 @@
       .hero-image-block {
           flex: 1;
           justify-content: center;
+          display: flex;
       }
 
       /* FIX 1: Hero image mobile size */
       .hero-image-wrapper {
           width: 380px;
           height: 450px;
+          margin: 0 auto -50px auto;
           margin-bottom: 32px;
-          margin-top: -50px;
       }
 
 
